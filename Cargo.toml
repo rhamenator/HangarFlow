@@ -2,3 +2,17 @@
 name = "hangar-flow"
 version = "0.1.0"
 edition = "2024"
+authors = ["Richard M. Hamilton"]
+description = "Aircraft maintenance work-order and quoting application"
+repository = "https://github.com/rhamenator/HangarFlow"
+
+[package.metadata.wix]
+upgrade-guid = "83C70B31-8D56-4C83-BF48-652637C37FEA"
+path-guid = "4B383AFE-99E2-4A44-9231-9BE914C449FC"
+license = false
+eula = false
+
+# The profile that 'dist' will build with
+[profile.dist]
+inherits = "release"
+lto = "thin"
