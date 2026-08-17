@@ -1,3 +1,7 @@
+<p align="center">
+  <img src=".github/assets/logo.png" alt="HangarFlow logo" width="220">
+</p>
+
 # HangarFlow
 
 An organization-neutral aircraft maintenance work-order and quoting core based

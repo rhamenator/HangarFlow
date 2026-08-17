@@ -11,6 +11,7 @@ upgrade-guid = "83C70B31-8D56-4C83-BF48-652637C37FEA"
 path-guid = "4B383AFE-99E2-4A44-9231-9BE914C449FC"
 license = false
 eula = false
+product-icon = "wix\\Product.ico"
 
 # The profile that 'dist' will build with
 [profile.dist]
